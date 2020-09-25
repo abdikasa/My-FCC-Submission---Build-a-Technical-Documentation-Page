@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  padding: 30px 10px;
+  font-weight: 400;
+  background-color: aliceblue;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.main-section {
+  min-height: 22vh;
+}
+
+#intro {
+  padding-bottom: 2rem;
+}
+
+nav {
+  position: fixed;
+  height: 100%;
+  border: 1px solid #000;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  flex-direction: column;
+}
+
+nav a,
+nav header {
+  line-height: 30px;
+  display: block;
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border-top: 1px solid #000;
+}
+
+#main-doc {
+  margin-left: 18rem;
+}
+
+.main-section header {
+  padding: 0 0 1.6rem 0;
+}
+
+.main-section ul {
+  padding-left: 2rem;
+}
+
+.main-section p,
+li,
+code {
+  word-spacing: 2px;
+  line-height: 32px;
+  max-width: 1180px;
+  padding-left: 1rem;
+}
+
+.main-section h4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.code {
+  padding: 1rem 0;
+  margin-left: 1rem;
+  background-color: rgb(236, 233, 233);
+}
+
+@media (max-width: 1100px) {
+  .main-section {
+    margin-bottom: 2rem;
+  }
+}
